@@ -108,7 +108,7 @@ $('.gallery-best-imgs .btn').click(function (event) {
     loaderBtn.append(loader);
     $('.gallery-best-imgs .btn').hide();
     setTimeout(function () {
-        for (let i = 8; i <= 16; i++) {
+        for (let i = 1; i <= 16; i++) {
             let elem = $(`<div class="gallery-itself-item" data-status="on">
             <img src="imgs/09_gallery_best_imgs/gbi_0${i}.png" alt="">
         </div>`);
